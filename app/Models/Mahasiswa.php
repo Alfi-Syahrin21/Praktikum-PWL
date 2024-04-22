@@ -10,7 +10,7 @@ class Mahasiswa extends Model
     use HasFactory;
     protected $table = 'mahasiswa';
     protected $primaryKey = 'id_mahasiswa';
-    public $time_stamps = false;
+    public $timestamps = false;
     protected $fillable =
     [
         'nama',

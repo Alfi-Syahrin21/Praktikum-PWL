@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Dosen2Controller;
 use App\Http\Controllers\DosenController;
 use App\Http\Controllers\MahasiswaController;
 
@@ -23,4 +24,5 @@ Route::get('/', function () {
 });
 Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
 Route::get('/dosen', [DosenController::class, 'index']);
+Route::get('/dosen2', [Dosen2Controller::class, 'index']);
 

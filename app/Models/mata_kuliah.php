@@ -11,7 +11,7 @@ class mata_kuliah extends Model
 
     protected $table = 'mata_kuliah';
     protected $primaryKey = 'id_matkul';
-    public $time_stamps = false;
+    public $timestamps = false;
 
     public function dosen()
     {

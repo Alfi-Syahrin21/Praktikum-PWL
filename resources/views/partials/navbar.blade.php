@@ -10,7 +10,7 @@
             <a class="nav-link active" aria-current="page" href="/mahasiswa">Mahasiswa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/dosen">Dosen</a>
+            <a class="nav-link active" href="/dosen2">Dosen</a>
           </li>
         </ul>
       </div>

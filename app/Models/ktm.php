@@ -11,7 +11,7 @@ class ktm extends Model
     
     protected $table = 'ktm';
     protected $primaryKey = 'id_ktm';
-    public $time_stamps = false;
+    public $timestamps = false;
 
     public function mahasiswa()
     {
